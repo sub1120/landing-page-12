@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    padding:0px;
+    margin: 0px;
+    outline: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section1{
+    background-color: #636C79;
+}
+
+.header{
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:20px;
+    height: 80px;
+}
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.nav{
+    float: right;
+}
+
+.nav-item{
+    display: inline;
+    margin: 0px 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.nav-item.talk{
+    padding:10px 40px;
+    border:1px solid #ffffff; 
+}
+
+.banner{
+    display: flow-root;
+    margin:0px 80px;
+}
+
+.banner-img{
+    width: 450px;
+    overflow:hidden;
+    float: left;
+    margin-right:80px;
+    margin-bottom:80px;
+    border-radius: 10px;
+}
+
+.banner-img img{
+    width: 800px;
+}
+
+.banner-right{
+    margin-top: 80px;
+    color: #ffffff;
+}
+
+.banner-right h1{
+    font-size: 50px;
+}
+
+.banner-right p{
+    font-size: 20px;
+    margin:50px 0px;
+}
+
+.email-box{
+    width: fit-content;
+    margin-left:44%;
+    background: #ffffff;
+    font-size: 18px;
+}
+
+.email-box img{
+    vertical-align:middle;
+    padding-left:20px;
+    width: 30px;
+}
+
+.email-box input{
+    padding:20px 20px;
+    border: none;
+    font-size: unset;
+    width: 250px;
+}
+
+
+.email-box button{
+    padding:20px 60px;
+    border: 5px solid #ffffff;
+    font-size: unset;
+    background: #8BB7A2;
+    color:#ffffff
+}
+
+.section2{
+    margin:50px 0px;
+}
+
+.stats-heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.stat-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+}
+
+.stat-item{
+    text-align: center;
+}
+
+.stat-count{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.stat-name{
+    font-size: 20px;
+}
+
+.section3{
+    margin:50px 80px;
+}
+
+.video img{
+    width: 100%;
+}
+
+.section4{
+    margin:50px 80px;
+}
+
+.section4-heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.easy{
+    margin: 50px 0px;
+    display: flow-root;
+}
+
+.easy-img-right{
+    float: right;
+}
+
+.easy-img-right img{
+    width: 500px;
+}
+
+.easy-img-left{
+    float: left;
+    margin-right: 50px;
+}
+
+.easy-img-left img{
+    width: 500px;
+}
+
+.easy-left{
+    margin-top:100px;
+    width: 45%;
+}
+
+.easy-right{
+    margin-top:100px;
+    /* width: 45%; */
+}
+
+.easy-heading{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.easy-para{
+    font-size: 20px;
+    margin:40px 0px;
+}
+
+.talk-btn button{
+    padding:20px 60px;
+    font-size: unset;
+    background: #8BB7A2;
+    color:#ffffff;
+    border:none;
+}
