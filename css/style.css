@@ -103,7 +103,8 @@
     border: 5px solid #ffffff;
     font-size: unset;
     background: #8BB7A2;
-    color:#ffffff
+    color:#ffffff;
+    font-weight: 700;
 }
 
 .section2{
@@ -202,4 +203,55 @@
     background: #8BB7A2;
     color:#ffffff;
     border:none;
+    font-weight: 700;
+}
+
+.section5{
+    margin:50px 80px;
+}
+
+.section5-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section5-heading > p{
+    flex:.7;
+}
+
+.team-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-item{
+    margin: 50px 0px;
+}
+
+.mem-img img{
+    width: 350px;
+}
+
+.mem-name{
+    margin-top:20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.mem-thought{
+    margin-top:10px;
+    width: 350px;
+}
+
+.see-btn{
+    text-align: center
+}
+
+.see-btn button{
+    padding:20px 60px;
+    font-size: unset;
+    background: #8BB7A2;
+    color:#ffffff;
+    border:none;
+    font-weight: 700;
 }
