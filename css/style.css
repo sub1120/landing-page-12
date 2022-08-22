@@ -51,7 +51,7 @@
 }
 
 .banner-img{
-    width: 450px;
+    width: 35%;
     overflow:hidden;
     float: left;
     margin-right:80px;
@@ -60,7 +60,7 @@
 }
 
 .banner-img img{
-    width: 800px;
+    width: 220%;
 }
 
 .banner-right{
@@ -78,10 +78,11 @@
 }
 
 .email-box{
-    width: fit-content;
+    width: 55%;
     margin-left:44%;
     background: #ffffff;
     font-size: 18px;
+    display: flow-root;
 }
 
 .email-box img{
@@ -105,6 +106,7 @@
     background: #8BB7A2;
     color:#ffffff;
     font-weight: 700;
+    float: right;
 }
 
 .section2{
@@ -225,11 +227,11 @@
 }
 
 .team-item{
-    margin: 50px 0px;
+    margin: 5% 0px;
 }
 
 .mem-img img{
-    width: 350px;
+    width: 300px;
 }
 
 .mem-name{
@@ -240,7 +242,7 @@
 
 .mem-thought{
     margin-top:10px;
-    width: 350px;
+    width: 90%;
 }
 
 .see-btn{
@@ -319,4 +321,269 @@
     text-decoration: none;
     color:#ffffff;
     font-weight: 700;
+}
+
+@media (max-width:1200px){
+    .nav-item{
+        margin: 0px 10px;
+    }
+
+    .banner{
+        margin:0px 50px;
+    }
+
+    .banner-img{
+        margin-right: 50px;
+        margin-bottom: 50px;
+    }
+
+    .banner-right{
+        margin-top: 50px;
+    }
+
+    .banner-right h1{
+        font-size:30px;
+    }
+
+    .banner-right p{
+        margin:30px 0px;
+        font-size: 15px;
+    }
+
+    .email-box{
+        margin-left: 40%;
+        margin-bottom: 20px;
+    }
+
+    .email-box img{
+        padding-left:10px;
+        width: 30px;
+    }
+
+    .email-box input{
+        padding:20px 20px;
+        width: 222px;
+    }
+
+    .email-box button{
+        padding:15px 20px;
+    }
+
+    .section3{
+        margin:50px 50px;
+    }
+
+    .section4{
+        margin:50px 50px;
+    }
+
+    .easy-left{
+        margin-top:50px;
+        width: 45%;
+    }
+    
+    .easy-right{
+        margin-top:50px;
+        /* width: 45%; */
+    }
+
+    .easy-img-right img{
+        width: 350px;
+    }
+
+    .easy-img-left img{
+        width: 350px;
+    }
+
+    .easy-heading{
+        font-size: 30px;
+    }
+
+    .easy-para{
+        font-size: 18px;
+    }
+
+    .talk-btn button{
+        padding:15px 20px;
+    }
+
+    .section5{
+        margin:50px 50px;
+    }
+
+    .section5-heading{
+        flex-direction: column;
+    }
+    
+    .section5-heading h1{
+        font-size: 30px;
+    }
+
+    .footer{
+        margin:50px 50px;
+        margin-bottom: 0px;
+    }
+    
+    .stats-heading{
+        font-size: 30px;
+    }
+
+    .mem-img img{
+        width: 250px;
+    }
+
+    .mem-thought{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:900px){
+    .logo img{
+        width:100px;
+    }
+
+    .nav-link{
+        display: none;
+    }
+
+    .nav-item.talk{
+        display: block;
+    }
+
+    .nav-item.talk > .nav-link{
+        display: block;
+    }
+
+    .banner{
+        margin: 0px 20px;
+    }
+
+    .banner-img{
+        width: 100%;
+        float: unser;
+        margin:0px;
+    }
+    
+    .banner-img img{
+        width: 100%;
+    }
+    
+    .email-box{
+        width: 100%;
+        margin-left:unset;
+        font-size: 15px;
+    }
+
+    .email-box input{
+        width: 45%;
+    }
+
+    .stats-heading{
+        font-size: 20px;
+    }
+
+    .stat-count{
+        font-size: 15px;
+    }
+
+    .stat-name{
+        font-size: 15px;
+    }
+
+    .section3{
+        margin:30px 30px;
+    }
+
+    .section4{
+        margin:30px 30px;
+    }
+    
+    .section4-heading{
+        font-size: 20px;
+    }
+
+    .easy-img-right{
+        float: unset;
+    }
+    
+    .easy-img-right img{
+        width: 60%;
+    }
+    
+    .easy-img-left{
+        float: unset;
+        margin-right: unset;
+    }
+    
+    .easy-img-left img{
+        width: 60%;
+    }
+    
+    .easy-left{
+        margin-top:30px;
+        width: 100%;
+    }
+    
+    .easy-right{
+        margin-top:30px;
+        /* width: 45%; */
+    }
+    
+    .easy-heading{
+        font-size: 20px;
+    }
+    
+    .easy-para{
+        font-size: 15px;
+        margin:20px 0px;
+    }
+
+    .section5{
+        margin:30px 30px;
+    }
+
+    .section5-heading h1{
+        font-size: 20px;
+    }
+
+    .section5-heading p{
+        font-size: 15px;
+    }
+
+    .mem-img img{
+        width: 60%;
+    }
+
+    .team-list{
+        flex-direction: column;
+    }
+
+    .footer{
+        margin:30px 30px;
+        margin-bottom: 0px;
+        padding-bottom: 30px;
+    }
+
+    .footer-logo img{
+        width: 100px;
+    }
+
+    .social-icon{
+        border-radius: 30px;
+    }
+    
+    .social-icon img{
+        padding:10px;
+    }
+
+    .see-btn button{
+        padding:15px 20px;
+    }
+
+    .footer-bottom{
+        margin-top:30px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }
